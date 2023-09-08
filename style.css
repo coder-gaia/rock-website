@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+/* defining colours and fonts */
+body{
+     background-color: #ff6f00;
+}
+header h1,
+.additional h2, h3, input,
+.main h2{
+    color:#fff;
+    font-family: 'Permanent Marker', cursive;
+}
+.main p, 
+.additional p,
+.container li, footer{
+    font-family: 'Shadows Into Light', cursive;
+}
+.content p{
+    font-weight: 700;
+}
+/* header-container */
+header, footer{
+    padding:16px 0;
+    background-color: #322e2e;
+}
+header nav li{
+    display:inline;
+    margin-left: 16px;
+    font-size: 19px;
+}
+header nav li a{
+    color:#fff;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    margin:0 auto;
+}
+/*main-content(about the band)*/
+.main{
+    display: flex;
+}
+.content{
+    display: inline-block;
+    text-align:center;
+    width:40%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lp-photo{
+    width:400px;
+    margin-top: 20px;
+    margin-left: 230px;
+    padding-right: 24px;
+}
+/*main section -> form*/
+.main-section{
+    margin-top: 40px;
+}
+.additional{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.additional h2{
+    margin-left: 36px;
+    margin-top: 60px;
+    color: #fff;
+}
+.additional input, button{
+    display: block;
+    padding:8px;
+    margin-top: 5px;
+    margin-bottom:8px;
+    margin-left: 45px;
+    width:200px;
+    border-radius:24px;
+}
+.additional button:hover{
+    color: #ff6f00;
+    background-color: #322e2e;
+}
+.general h3{
+    width: 100%;
+}
+.links img{
+    height:25px;
+}
+.yt-links li{
+    margin-left: 140px;
+    text-decoration: none;
+}
+.yt-links{
+    margin-bottom: 235px;
+    display: inline-block;
+}
+.yt-links ul li a{
+    list-style: none;
+}
+.ode{
+    display: inline-block;
+    text-align:center;
+    height: 30vh;
+    width:30%;
+    justify-content: center;
+    margin-bottom: 300px;
+    font-weight: 700;
+}
+.ode h2{
+    margin-right: 80px;
+}
+
+form{
+    margin-bottom: 100px;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    color:#fff
+}
+
